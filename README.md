@@ -4,7 +4,7 @@
 
 This project is a smart car that can autonomously locate an acoustic source, navigate to it, and perform high-efficiency wireless charging. The system's core is a custom-designed main control board based on the **Infineon AURIX TC377** microcontroller.
 
-A key technical highlight is the implementation of a **constant-power charging system** for a supercapacitor. The system uses a composite control strategy combining **Feedforward and PID control** to maintain a stable charging power, achieving up to **55W**. This project demonstrates a full development cycle, from theoretical analysis and hardware design to embedded software development and system integration.
+A key technical highlight is the implementation of a **constant-power charging system** for a supercapacitor. The system uses a composite control strategy combining **Feedforward and PID control** to maintain a stable charging power, achieving up to **55W**. 
 
 <p align="center">
   <img src="./test.gif" alt="A GIF demonstration of the wireless charging car in action" width="500">
@@ -12,10 +12,10 @@ A key technical highlight is the implementation of a **constant-power charging s
 
 ## Key Features
 
-  * **Acoustic Source Localization**: Uses a microphone array and a **cross-correlation algorithm** to accurately determine the direction of a sound source.
-  * **Autonomous Navigation**: The car can autonomously navigate and dock at the identified sound source for charging.
   * **High-Efficiency Wireless Charging**: Features a robust constant-power charging algorithm.
   * **Integrated Hardware Design**: Developed a custom all-in-one main control board featuring the Infineon TC377 MCU and TI DRV8701 motor driver.
+  * **Acoustic Source Localization**: Uses a microphone array and a **cross-correlation algorithm** to accurately determine the direction of a sound source.
+  * **Autonomous Navigation**: The car can autonomously navigate and dock at the identified sound source for charging.
 
 ## Hardware & Tech Stack
 
